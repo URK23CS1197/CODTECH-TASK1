@@ -1,0 +1,48 @@
+import tkinter as tk
+import math
+a=tk.Tk()
+a.geometry('500x500')
+a.title("calculator")
+v1=tk.IntVar()
+v2=tk.IntVar()
+r=tk.IntVar()
+result=tk.Label(font=("bold",12),fg="red")
+result.place(x=60,y=200)
+def start():
+    t=tk.Label(text="CALCULATOR",bg="blue",fg="black",font="bold")
+    t.place(x=150,y=40)
+    value1=tk.Label(text="value1:",bg="blue",fg="black")
+    value1.place(x=50,y=80)
+    value2=tk.Label(text="value2:",bg="blue",fg="black")
+    value2.place(x=50,y=110)
+    va1=tk.Entry(a,textvariable=v1)
+    va1.place(x=100,y=80)
+    va2=tk.Entry(a,textvariable=v2)
+    va2.place(x=100,y=110)
+    b1=tk.Button(a,text="+",command=add)
+    b1.place(x=100,y=150)
+    b2=tk.Button(a,text="-",command=sub)
+    b2.place(x=130,y=150)
+    b3=tk.Button(a,text="x",command=mul)
+    b3.place(x=160,y=150)
+    b4=tk.Button(a,text="/",command=div)
+    b4.place(x=190,y=150)
+def add():
+    c=v1.get()
+    b=v2.get()
+    result.config(text=f'result:{c+b}')
+def sub():
+    c=v1.get()
+    b=v2.get()
+    result.config(text=f'result:{c-b}')
+def mul():
+    c=v1.get()
+    b=v2.get()
+    result.config(text=f'result:{c*b}')
+def div():
+    c=v1.get()
+    b=v2.get()
+    result.config(text=f'result:{c/b}')
+
+start()
+a.mainloop()
