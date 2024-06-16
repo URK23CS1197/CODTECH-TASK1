@@ -10,6 +10,11 @@ Duration: 1st june to 30th june
 
 Mentor: SRAVANI GOUNI
 
+![Screenshot 2024-06-12 200945](https://github.com/URK23CS1197/CODTECH-TASK1/assets/153480009/5ecdf469-1d9a-46c5-bed0-d93b0c0ead78)
+
+![Screenshot 2024-06-16 191512](https://github.com/URK23CS1197/CODTECH-TASK1/assets/153480009/b4a00a71-01aa-4213-9eb9-8ff0658c16b5)
+
+
 Overview of the project
 
 project: SIMPLE CALCULATOR
