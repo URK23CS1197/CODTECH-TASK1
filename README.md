@@ -10,7 +10,7 @@ Duration: 1st june to 30th june
 
 Mentor: SRAVANI GOUNI
 
-Overview of the project
+OVERVIEW OF THE PROJECT:
 
 ![Screenshot 2024-06-12 200945](https://github.com/URK23CS1197/CODTECH-TASK1/assets/153480009/5ecdf469-1d9a-46c5-bed0-d93b0c0ead78)
 
@@ -19,11 +19,11 @@ Overview of the project
 
 project: SIMPLE CALCULATOR
 
-Objective
+OBJECTIVE:
 
 The objective of a project like building a calculator using Python can vary depending on the context and the goals of the developer.
 
-Key Activities
+KEY ACTIVITIES:
 
 Implementing Arithmetic Functions
 
@@ -31,13 +31,14 @@ Performing Calculations: Based on the user’s choice, call the appropriate func
 
 Handling User Input: Capture user input from the interface (e.g., button clicks, keyboard input).
 
-Technoligies used:
+TECHNOLOGIES USED:
 
 Python Programming Language: Python is the primary language used for writing the calculator logic. It's versatile, easy to learn, and has extensive libraries for various purposes.
 
 Tkinter: Tkinter is the standard GUI toolkit for Python. It's easy to use and comes bundled with Python. Tkinter allows you to create buttons, labels, and other GUI elements to build a graphical calculator interface.
 
-Detailed Steps to Implement:
+STEPS TO IMPLEMENT:
+
 Setup the GUI:
 
 Use Tkinter to create a main window (Tk() instance) and set a title for the calculator.
@@ -62,7 +63,8 @@ Testing and Debugging:
 Test the calculator with various inputs to ensure it performs calculations correctly and handles edge cases appropriately.
 Debug any issues that arise during testing.
 
-Conclusion:
+CONCLUSION:
+
 Building a simple calculator project in Python provides a practical way to apply programming concepts in a meaningful context. It introduces fundamental GUI programming with Tkinter, basic arithmetic operations, and error handling. As you progress, you can extend the calculator's functionality or explore more advanced GUI frameworks for richer user interfaces.
 
 
